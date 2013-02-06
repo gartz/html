@@ -1,5 +1,5 @@
 {
-    "name": "html",
+    "name": "require-html",
     "version": "0.0.1",
     "description": "An AMD loader plugin for loading html resources.",
     "categories": [
@@ -27,9 +27,6 @@
         }
     ],
     "volo": {
-        "dependencies": {
-            "requirejs/text": "requirejs/text"
-        }
         "url": "https://raw.github.com/gartz/html/{version}/html.js"
     }
 }
