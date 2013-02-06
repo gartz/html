@@ -1,0 +1,32 @@
+{
+    "name": "html",
+    "version": "0.0.1",
+    "description": "An AMD loader plugin for loading html resources.",
+    "categories": [
+        "Loader plugins"
+    ],
+    "main": "html.js",
+    "github": "https://github.com/gartz/html",
+    "bugs": {
+        "web": "https://github.com/gartz/html/issues"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/gartz/html.git"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+        },
+        {
+            "type": "BSD New",
+            "url": "http://opensource.org/licenses/BSD-3-Clause"
+        }
+    ],
+    "volo": {
+        "url": "https://raw.github.com/gartz/html/{version}/html.js"
+    }
+}
