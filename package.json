@@ -27,6 +27,9 @@
         }
     ],
     "volo": {
+        "dependencies": {
+            "requirejs/text": "requirejs/text"
+        }
         "url": "https://raw.github.com/gartz/html/{version}/html.js"
     }
 }

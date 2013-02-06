@@ -28,6 +28,12 @@ define(['text'], function (text) {
                 var stash = doc.cloneNode(true);
                 
                 doc.stash = function () {
+                    if (this.childNodes) {
+                        var nodes = this.childNodes;
+                        for (var i = 0, max = nodes.length; i < max; i++) {
+                            this.removeChild(nodes[0]);
+                        }
+                    }
                     this.appendChild(stash.cloneNode(true));
                 };
                 
