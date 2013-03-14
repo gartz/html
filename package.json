@@ -1,6 +1,6 @@
 {
     "name": "require-html",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "An AMD loader plugin for loading html resources.",
     "categories": [
         "Loader plugins"
