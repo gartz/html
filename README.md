@@ -1,5 +1,7 @@
 # html
 
+[![Analytics](https://ga-beacon.appspot.com/UA-24619548-7/html/readme)](https://github.com/igrigorik/ga-beacon)
+
 A [RequireJS](http://requirejs.org)/AMD loader plugin for loading html fragments
 from plain text html files.
 
