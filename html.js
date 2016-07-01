@@ -20,10 +20,10 @@ define(['text'], function (text) {
 
             req(['text!' + name], function (value) {
                 var doc = document.createDocumentFragment();
-                var re = /<html(.*)<\/html|<head(.*)<\/head/gi;
-                var match = !!value.match(re);
+                var re = /<html( |>)((.|[\r\n])*)<\/html(.*)>|<head( |>)((.|[\r\n])*)<\/head(.*)>/i;
+                var isDocument = re.test(value);
 
-                var el = document.createElement(match ? 'html' : 'body');
+                var el = document.createElement(isDocument ? 'html' : 'body');
                 el.innerHTML = value;
 
                 if (el.children) {
