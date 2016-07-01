@@ -1,4 +1,4 @@
-# html
+# require-html
 
 A [RequireJS](http://requirejs.org)/AMD loader plugin for loading html fragments
 from plain text html files.
