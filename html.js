@@ -5,6 +5,8 @@
  */
 /*jslint regexp: true */
 /*global define: false */
+/*editing-kritika*/
+
 
 define(['text'], function (text) {
     'use strict';
